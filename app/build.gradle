@@ -41,6 +41,9 @@ dependencies {
     def roomVersion = "2.4.2"
     def work_version = "2.7.1"
 
+    implementation 'com.github.judemanutd:katexview:1.0.2'
+
+
     // Kotlin + coroutines
     implementation("androidx.work:work-runtime-ktx:$work_version")
 
