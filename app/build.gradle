@@ -40,6 +40,23 @@ dependencies {
     def lifecycle_version = "2.6.0-alpha01"
     def roomVersion = "2.4.2"
     def work_version = "2.7.1"
+    def jlatexmath_android_version = "0.2.0"
+
+//    // https://github.com/jianzhongli/MathView
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation 'io.github.kexanie.library:MathView:0.0.6'
+//
+//    // https://github.com/lingarajsankaravelu/Katex
+//    implementation 'in.hourglass.mathrender:katexmathview:1.0.3'
+//
+//    // https://github.com/noties/jlatexmath-android
+//    implementation "ru.noties:jlatexmath-android:${jlatexmath_android_version}"
+//    implementation "ru.noties:jlatexmath-android-font-greek:${jlatexmath_android_version}"
+//
+//    implementation 'com.github.quantaDot:MathRenderer:1.0.3'
+
+    implementation 'com.github.judemanutd:katexview:1.0.2'
+
 
     // Kotlin + coroutines
     implementation("androidx.work:work-runtime-ktx:$work_version")
